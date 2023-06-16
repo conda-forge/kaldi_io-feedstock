@@ -1,5 +1,5 @@
 {% set name = "kaldi_io" %}
-{% set version = "0.9.5" %}
+{% set version = "0.9.8" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/kaldi_io-{{ version }}.tar.gz
-  sha256: 05032c2fa7fd23b935432e3dad9b4efade3b1fda9480ce9b719d32d39c5b56cd
+  sha256: 48f8057413e8800a18518e2077f1d29a40b9487b80052a496828a68817aa93dc
 
 build:
   number: 0
